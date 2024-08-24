@@ -1,7 +1,7 @@
 import os
 
 #### carpeta data set ####
-location = "C:/Users/gabri/Desktop/Cursos/Data Analytics-CERTUS/DataOps/Proyecto_Parcial/dataset"
+location = "C:/Users/gabri/Desktop/Cursos/Data Analytics-CERTUS/DataOps/Proyecto_Parcial/python/dataset"
 
 #### Validar si existe la carpeta ###
 if not os.path.exists(location):  # si no existe
