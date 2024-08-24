@@ -20,7 +20,7 @@ GO
 
 -- Importar data desde archivo
 BULK INSERT dbo.olympics
-FROM 'C:\Users\gabri\Desktop\Cursos\Data Analytics-CERTUS\DataOps\Proyecto_Parcial\dataset\Athens 2004 Olympics Nations Medals.csv'
+FROM 'C:\Users\gabri\Desktop\Cursos\Data Analytics-CERTUS\DataOps\Proyecto_Parcial\python\dataset\Athens 2004 Olympics Nations Medals.csv'
 WITH
 (
 	FIRSTROW = 2,   -- Empieza a leer desde el segundo registro
